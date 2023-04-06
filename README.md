@@ -6,7 +6,30 @@
 Fork [repo](https://github.com/rooted-cyber/Deploy-mirror/fork) , upload config.env and token.pickle
 Then edit rootedcyber.sh file
 
-
+Normal rootedcyber.sh
+```
+git clone your fork repo
+cd Deploy*
+if [ -e config.env ];then
+pip3 install --no-cache-dir -r requirements.txt > /dev/null 2>&1
+bash start.sh
+else
+printf "\n\n\n First Upload your config.env\n\n"
+exit
+fi
+```
+Edited rootedcyber.sh
+```
+git clone https://github.com/rooted-cyber/Deploy-mirror
+cd Deploy*
+if [ -e config.env ];then
+pip3 install --no-cache-dir -r requirements.txt > /dev/null 2>&1
+bash start.sh
+else
+printf "\n\n\n First Upload your config.env\n\n"
+exit
+fi
+```
 
 This is a Telegram Bot written in Python for mirroring files on the Internet to your Google Drive or Telegram. Based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot)
 
