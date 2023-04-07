@@ -8,7 +8,8 @@ printf "\n Please wait for installing \n\n"
 pi() {
 pip3 install --no-cache-dir -r requirements.txt > /dev/null 2>&1
 printf "\n Bot Starting !!! \n"
-bash start.sh
+python3 update.py
+python3 -m bot
 }
 pi
 else
