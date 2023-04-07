@@ -1,5 +1,5 @@
 {
-    "name": "Telegram",
+    "name": "Telegram mirror bot",
     "description": "You know what it does...",
     "logo": "https://graph.org/file/0877f95770f909dd457f0.jpg",
     "keywords": [
@@ -11,9 +11,114 @@
     "success_url": "https://t.me/rootedcyber",
     "stack": "container",
     "env": {
-        "BOT_NAME": {
-            "description": "Name of your bot",
-            "value": "mirror-bot",
+        "CMD_SUFFIX": {
+            "description": "",
+            "value": "", 
+            "required": false
+        },
+        "YT_DLP_QUALITY": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "TORRENT_TIMEOUT": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "UPTOBOX_TOKEN": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "LEECH_SPLIT_SIZE": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "INCOMPLETE_TASK_NOTIFIER": {
+            "description":"",
+            "value": "",
+            "required": false
+        },
+        "STATUS_LIMIT": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "MEGA_PASSWORD": {
+            "description": "",
+            "value": "", 
+            "required": false
+        },
+        "MEGA_EMAIL_ID": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "STOP_DUPLICATE": {
+            "description": "",
+            "value": "", 
+            "required": false
+        },
+        "INDEX_URL": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "USER_SERVICE_ACCOUNTS": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "SUDO_USERS": {
+            "description":"",
+            "value": "", 
+            "required": false
+        },
+        "AUTHORIZED_CHATS": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "DATABASE_URL": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "OWNER_ID": {
+            "description": "",
+            "value": "",
+            "required": true
+        },
+        "GDRIVE_ID": {
+            "description": "",
+            "value": "", 
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "",
+            "value": "",
+            "required": true
+        },
+        "USER_SESSION_STRING": {
+            "description":"",
+            "value": "", 
+            "required": false
+        },
+        "MEGA_API_KEY": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "RSS_CHAT_ID": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "RSS_DELAY": {
+            "description": "",
+            "value": "",
             "required": false
         }
     },
