@@ -1,5 +1,5 @@
 gt() {
-git clone https://github.com/somefaltuuse/Deploy-mirror
+git clone 
 }
 gt > /dev/null 2>&1
 cd Deploy*
@@ -9,7 +9,6 @@ pi() {
 pip install --upgrade pip
 pip3 install --no-cache-dir -r requirements.txt > /dev/null 2>&1
 printf "\n Bot Starting !!! \n"
-python3 update.py
 python3 -m bot
 pip install pyrogram
 }
