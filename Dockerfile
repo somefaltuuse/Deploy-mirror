@@ -1,4 +1,5 @@
-FROM anasty17/mltb:dev
+FROM theteamultroid/ultroid:main
+FROM anasty17/mltb:latest
 
 WORKDIR /bot
 COPY . .
