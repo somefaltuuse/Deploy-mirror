@@ -10,6 +10,7 @@ pip3 install --no-cache-dir -r requirements.txt > /dev/null 2>&1
 printf "\n Bot Starting !!! \n"
 python3 update.py
 python3 -m bot
+pip install pyrogram
 }
 pi
 else
