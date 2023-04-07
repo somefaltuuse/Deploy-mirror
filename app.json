@@ -63,7 +63,7 @@
         },
         "INDEX_URL": {
             "description": "",
-            "value": "",
+            "value": "https://mirror-bot.rootedcyber.workers.dev/0:",
             "required": false
         },
         "USER_SERVICE_ACCOUNTS": {
@@ -88,17 +88,17 @@
         },
         "OWNER_ID": {
             "description": "",
-            "value": "",
+            "value": "500774612",
             "required": true
         },
         "GDRIVE_ID": {
             "description": "",
-            "value": "", 
+            "value": "1P2tR0vm3htIH69X0cOxDBvxIgCRDKPDR", 
             "required": true
         },
         "BOT_TOKEN": {
             "description": "",
-            "value": "",
+            "value": "5527063989:AAH5u6VRPwikyoiPQ1ZoJ_wIsAGfosLfEdw",
             "required": true
         },
         "USER_SESSION_STRING": {
@@ -111,14 +111,14 @@
             "value": "",
             "required": false
         },
-        "RSS_CHAT_ID": {
+        "TELEGRAM_API": {
             "description": "",
-            "value": "",
+            "value": "3704772",
             "required": false
         },
-        "RSS_DELAY": {
+        "TELEGRAM_HASH": {
             "description": "",
-            "value": "",
+            "value": "b8e50a035abb851c0dd424e14cac4c06",
             "required": false
         }
     },
