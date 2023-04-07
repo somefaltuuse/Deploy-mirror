@@ -1,5 +1,5 @@
 ## Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/rooted-cyber/Deploy-mirror)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/somefaltuuse/Deploy-mirror)
 
 ## How to deploy in heroku
 
